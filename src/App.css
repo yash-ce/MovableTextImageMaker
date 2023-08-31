@@ -1,0 +1,23 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  cursor: grab;
+}
+
+.text-overlay:active {
+  cursor: grabbing;
+}
